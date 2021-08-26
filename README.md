@@ -1,29 +1,27 @@
-# Requisitos
-...
-Node, MySql
-...
-
 # Node
 ...
 instalar o node
 ...
  ## Definição de pasta
 ...
-Criar pasta raiz e colar as pastas e arquivos do projeto
+Escolher pasta raiz e colar a pasta do projeto \vuenodems
 ...
-# Istalação das dependências - pasta raiz
+# Istalação das dependências - pasta raiz \vuenodems
 ...
-A partir de um terminal ou promp comando, entrar na pasta raiz criada
+A partir de um terminal ou promp comando, entrar na pasta raiz \vuenodems
 ...
-## npm install - criar a pasta node_module 
-Dentro da pasta raiz digitar npm install, para criar a pasta node_module com as dependências necessárias para rodar a aplicação backend que se encotra em \api do projeto 
+## /api npm install - criar a pasta node_module 
+Digite: npm install, para criar a pasta node_module com as dependencias necessárias
+para rodar a aplicação backend que se encotra dentro da pasta /api do projeto 
 ...
-Dentro do diretório \pasata raiz\app digitar npm instal para instação das dependências necessárias ao frontend Vue
+## /app npm install - criar a pasta node_module
+Depois entrar na voltar para pasta raiz do projeto \vuenodems, acessar a pata \app e
+digitar npm instal para instação das dependências necessárias pra rodar o frontend Vue
 ...
-# Banco de dados MySql
+## Banco de dados
 ...
-Importar o banco de dados caduser.sql para uma istância do banco Mysql, previamente
-instalado
+Comece importando o banco de dados caduser.sql para uma istância do banco Mysql, previamente
+instaldo
 ...
 Se necessário, faça os devidos ajuste relacionados ao banco de dados, na pasta do projeto
 \vuenodems\api\db\conexao.js
@@ -34,9 +32,8 @@ Iniciar o serviço MySql na porta padrão 3306
 ...
 ## Em um terminal ou prompt comando
 ...
-1º A partir da \pasta raiz\api digitar o comando node index.js
+1º A partir da pasta \vuenodems\api digitar o comando node index.js
 ...
-2º A partir da \pasta raiz\app digitar o comando npm run serve
-Observação se o comando falhar digitar ctrl+c e executar novamente npm run serve
+2º A partir da pasta \vuenodems\app digitar o comando npm run serve
 ...
 3º Acessar o link http://localhost:8080/
